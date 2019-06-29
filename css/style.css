@@ -1,0 +1,18 @@
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: #fff;
+}
+
+.nav-list{
+	display: flex;
+	text-transform: uppercase;
+	color: blue;
+
+}
+.list{
+	margin-right: 10px;
+
+}
