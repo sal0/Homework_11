@@ -16,3 +16,46 @@
 	margin-right: 10px;
 
 }
+.first{
+	background-color: blue;
+
+}
+.logo{
+height: 50px;
+}
+.nav-list li:hover {
+	color: #3D58A6;
+	opacity: 0.5;
+	transition: 300ms ease;
+	
+}
+
+
+.flex-box{
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	align-items: center;
+ 
+}
+@media screen and (max-width: 1024px){
+	.flex-box{
+		flex-wrap: wrap;
+		
+	}
+	.box{
+		margin: 5px;
+	}
+	
+}
+
+.box{
+	height: 50px;
+	width: 50px;
+	background-color: gray;
+	padding: 50px;
+
+}
+
+
+
